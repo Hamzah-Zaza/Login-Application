@@ -10,7 +10,7 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 const PORT_EXPRESS = process.env.PORT || 5000;
-const MONGODB_URI = 'mongodb+srv://hamzahzaza:hamzahzaza@logincluster.tadzwac.mongodb.net/?retryWrites=true&w=majority'; // Replace with your MongoDB connection string
+const MONGODB_URI = ''; // Replace with your MongoDB connection string
 
 app.use(cors({ origin: 'http://localhost:3000' }));
 app.use(express.json());
